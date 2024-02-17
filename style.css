@@ -1,0 +1,165 @@
+*{
+margin: 0px;
+}
+@media only screen and (max-width:767px){
+    .nav-bar{
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        padding: 10px;
+    }
+    .nav-img-container{
+        display: flex;
+        align-items: center;
+    }
+    .nav-image{
+        width: 20%;
+    }
+    .nav-name{
+        font-weight: 600;
+        font-size: 15px;
+        color: rgb(243, 160, 65);
+        font-family: sans-serif;
+    }
+    .nav-items-container{
+        list-style-type:none;
+        display: flex;
+        justify-content: space-around;
+        font-family: sans-serif;
+        width: 85%;
+    }
+    .nav-item{
+        margin-right: 6px;
+        font-weight: 500;
+        font-family: sans-serif;
+        font-size: 10px;
+    }
+    .button-container{
+        display: none;
+    }
+    .mobile-button-container{
+      margin-bottom: 40px;
+      padding-top: 40px;
+    }
+    .btn{
+        border: none;
+        padding: 10px;
+        background-color: rgb(5, 49, 25);
+        color: white;
+        font-weight: 600;
+        margin-right: 10px;
+        width: 100px;
+        height: 38px;
+        border-radius: 9px;
+    }
+    .ser-btn{
+        border: none;
+        padding: 10px;
+        color: rgb(5, 49, 25);
+        background-color: rgb(139, 247, 187);
+        width: 100px;
+        height: 38px;
+        border-radius: 9px;
+    }
+    .bg-container{
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-start;
+        min-height: 90vh;
+        background-image: url("https://img.freepik.com/free-vector/dog-background-with-cute-pets-illustration_53876-111990.jpg");
+        background-size: cover;
+        padding-left: 20px;
+        padding-top: 20px;
+    }
+    .heading{
+        font-weight: 600;
+        margin-bottom: 15px;
+        font-family: sans-serif;
+        font-size: 25px;
+    }
+    .para{
+        font-weight: 500;
+        margin-bottom: 15px;
+        font-family: sans-serif;
+        font-size: 15px;
+    }
+}
+@media only screen and (min-width:768px){
+    .nav-bar{
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        padding: 10px;
+    }
+    .nav-img-container{
+        display: flex;
+        align-items: center;
+    }
+    .nav-image{
+        width: 7%;
+    }
+    .nav-name{
+        font-weight: 600;
+        font-size: 26px;
+        color: rgb(243, 160, 65);
+        font-family: sans-serif;
+    }
+    .nav-items-container{
+        list-style-type:none;
+        display: flex;
+        justify-content: space-around;
+        font-family: sans-serif;
+        width: 70%;
+    }
+    .mobile-button-container{
+        display: none;
+    }
+    .nav-item{
+        margin-right: 10px;
+        font-weight: 400;
+        font-family: sans-serif;
+    }
+    .button-container{
+        display: flex;
+        justify-content: center;
+    }
+    .btn{
+        border: none;
+        padding: 10px;
+        background-color: rgb(5, 49, 25);
+        color: white;
+        font-weight: 600;
+        margin-right: 10px;
+        width: 130px;
+        height: 38px;
+    }
+    .ser-btn{
+        border: none;
+        padding: 10px;
+        color: rgb(5, 49, 25);
+        background-color: rgb(139, 247, 187);
+        width: 130px;
+        height: 38px;
+    }
+    .bg-container{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        min-height: 90vh;
+        background-image: url("https://wallpaper.dog/large/5439349.jpg");
+        background-size: cover;
+        padding-left: 50px;
+    }
+    .heading{
+        font-weight: 600;
+        margin-bottom: 15px;
+        font-family: sans-serif;
+        font-size: 50px;
+    }
+    .para{
+        font-weight: 500;
+        margin-bottom: 15px;
+        font-family: sans-serif;
+        font-size: 25px;
+    }
+}
